@@ -1,0 +1,7 @@
+y3space_driver:
+  ros__parameters:
+    port: '/dev/ttyIMU'
+    baudrate: 115200
+    timeout: 3000
+    mode: 'relative'  # should be 'relative' or 'absolute'
+    frame: 'imu_link'
